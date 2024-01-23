@@ -10,6 +10,14 @@ configure the uname and email
 	git config --global user.name "Suhas"
 	git config --global user.email "your.email@example.com"
 
+	git push -u origin master:repo1
+
+			master -- local branch 
+			repo1 	- remote branch 
+					--- upto here successful.
+
+
+
 
 
 
@@ -23,6 +31,8 @@ configure the uname and email
 		create a github repo --- say repo1 
 		
 		push this file1 from folder1 to repo1 
+		
+		
 	
 	
 	
