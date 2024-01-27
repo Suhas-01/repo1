@@ -33,9 +33,107 @@ configure the uname and email
 		push this file1 from folder1 to repo1 
 		
 		
+--------------------
+
+
+	What you should be able to do ----------->>>
 	
 	
+		clone the project 
+		
+		create a branch for your module --- say branch1 
+		
+			make your changes in branch1 
+			
+			merge the branch1 with your LocanMain branch 
+			
+		switch to the branch1 
+		
+		push the branch1 to the remote repo 
+		
+			remote branch1 should get auto created.
+			
+		your TL or test manager --- 
+			
+			will create a pull request and will merge the remote branch1 with RemoreMain branch		
+			
+		Then you and everyone else can pull the code and can update your local main branch to the latest code ............... !! 
+		
+		
+		--------------------------
+		
+		
+		Implement all the above in you personal computer first .......   !! 
+		
+		
+		
+		
+		----------------
+		
+		
+		
+		Problem I am facing 
+		
+		
+			I have done changes in local branch1 
+			
+			but I am unable to merge them with local main 
+			
+			Also I am unable to switch to local main from local branch1 because --- changes in local branch1 are getting lost --- bcz of that ... !! 
+			
+			----
+			
+			
+		SMALL STEPS ----->>>>
+		
+		
+			clone the project 
+			
+			pull the changes 
+			
+			create a duplicate branch with name --- branch1 		--- All fine upto ere 
+			
+			
+			make changes in --- branch1 
+			
+			merge changes with local main branch ---- facing challenges here ... !! 
+			
+			---
+			
+				1 solution --- 
+				
+					stash the changes in branch1 
+					
+					
+					To merge your local branch1 with the local main branch, follow these steps:
+
+							Switch to the main branch:
+							git switch main
+							
+							Merge branch1 into main:
+							git merge branch1
+			
+					But I am unable to switch to the main branch --- w/o losing the changes in the branch1 
+			
+		
 	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
