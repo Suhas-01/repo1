@@ -114,6 +114,72 @@ configure the uname and email
 							git merge branch1
 			
 					But I am unable to switch to the main branch --- w/o losing the changes in the branch1 
+					
+							git add .
+							git commit -m "Your commit message"
+
+							git switch main
+
+							git merge branch1
+
+
+					Now, push the branch1 to remote as remote branch1 
+					
+							git remote 			// to check the remote repo name 
+							
+							# Assuming 'origin' is the name of your remote repository
+							git push -u origin branch1:branch1
+
+													--- successful ... !! 
+													
+													
+					Now, 
+						I want to merge my remote branch1 with remote main branch.
+						
+						How can I do that.
+						One way is to do -- pull request.
+						
+						what is another way ...?
+						
+						
+						One more query 
+						
+							If I commit branch1 to merge with local main --- and the merge is not proper --- how can I proceed further. 
+							
+						
+						-------------
+						
+					===========================
+					
+					I do not need steps to merge the branches locally. I need way to merge the remote branch1 with remote main branch. 
+					There should not be any role of local branches in merging these 2 remote branches. 
+					
+					
+					If you want to merge two remote branches without involving local branches, you can use the following command:
+
+					git push origin branch1:main
+					This command pushes the changes from the remote branch1 to the remote main branch. Make sure to replace origin with the actual name of your remote repository.
+
+					This assumes that you have the necessary permissions to push changes to the remote repository and that you want to overwrite the main branch with the changes from branch1. 
+					Be cautious with this operation, as it can overwrite changes on the remote main branch.	
+						
+					----------------------
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					
+					
 			
 		
 	
